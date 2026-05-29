@@ -3,7 +3,7 @@ module.exports = {
       "prettier --write",
       "eslint --max-warnings 0"
     ],
-    "**/*.{json,yaml,yml,toml}": [
+    "**/*.{json,yaml,yml,toml,gql,graphql}": [
       "prettier --write"
     ]
 }
