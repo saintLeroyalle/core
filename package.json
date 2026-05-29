@@ -22,6 +22,7 @@
   "exports": {
     "./prettier": "./src/prettier.config.cjs",
     "./commitlint": "./src/commitlint.config.cjs",
-    "./lint-staged": "./src/lint-staged.config.cjs"
+    "./lint-staged": "./src/lint-staged.config.cjs",
+    "./eslint": "./src/eslint.config.cjs"
   }
 }
