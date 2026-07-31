@@ -17,12 +17,12 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "@trivago/prettier-plugin-sort-imports": "4.2.0",
-    "@commitlint/cli": "^20.4.1",
-    "@commitlint/config-conventional": "^20.4.1",
-    "@eslint/js": "^9.29.0",
-    "eslint-plugin-prettier": "^5.5.1",
-    "typescript-eslint": "^8.35.1"
+    "@trivago/prettier-plugin-sort-imports": "6.0.2",
+    "@commitlint/cli": "^21.2.1",
+    "@commitlint/config-conventional": "^21.2.0",
+    "@eslint/js": "^10.0.1",
+    "eslint-plugin-prettier": "^5.5.6",
+    "typescript-eslint": "^8.65.0"
   },
   "exports": {
     "./prettier": "./src/prettier.config.cjs",
