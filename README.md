@@ -69,3 +69,33 @@ module.exports = require('@saintleroyalle/core/lint-staged');
   "include": ["src/**/*"]
 }
 ```
+
+### `add-task-number`
+
+Добавляет номер задачи из имени Git-ветки в commit message.
+
+`.husky/prepare-commit-msg`
+
+```sh
+#!/bin/sh
+
+node "$(node -p "require.resolve('@saintleroyalle/core/scripts/add-task-number')")" "$@"
+```
+
+Например, для ветки:
+
+```text
+#123/add-login
+```
+
+commit message:
+
+```text
+feat: add login
+```
+
+будет автоматически изменён на:
+
+```text
+feat: add login (#123)
+```
