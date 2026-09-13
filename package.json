@@ -1,6 +1,6 @@
 {
   "name": "@saintleroyalle/core",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "description": "Core utils",
   "publishConfig": {
     "access": "public"
@@ -35,4 +35,3 @@
     "./scripts/add-task-number": "./src/scripts/add-task-number.mjs"
   }
 }
-
