@@ -9,6 +9,7 @@
 - `commitlint`
 - `lint-staged`
 - `tsconfig`
+- `add-task-number hook`
 
 ## Установка 🚀
 

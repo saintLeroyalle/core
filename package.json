@@ -32,6 +32,7 @@
     "./eslint": "./src/eslint.config.cjs",
     "./tsconfig/base": "./src/tsconfig/base.json",
     "./tsconfig/nest": "./src/tsconfig/nest.json",
-    "./scripts/add-task-number": "./src/scripts/add-task-number.js"
+    "./scripts/add-task-number": "./src/scripts/add-task-number.mjs"
   }
 }
+
